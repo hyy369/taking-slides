@@ -1,4 +1,21 @@
-input {
-    border: 0; 
-    font-weight: bold;
+.ui-slider-handle:active {
+    border-color: #c5c5c5 !important;
 }
+
+#font-size-slider > .ui-slider-handle {
+    text-align: center;
+    vertical-align: middle;
+    width: 25px
+}
+
+span.ui-slider-handle::after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 1.2em;
+    height: 1.2em;
+    padding: 2em 2em;
+    top: -1em;
+    left: -1em;
+    cursor: pointer;
+  }

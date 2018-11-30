@@ -1,3 +1,5 @@
+Open `index.html` to run the widget. Although no server-side technology is used, an internet connection is required, as the jQuery libraries and Bootstrap stylesheets are linked from their CDNs.
+
 Original assignment:
 
 # Assignment 3: Taking Slides
